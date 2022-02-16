@@ -20,10 +20,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     padding: 35px 0;
     line-height: 59px;
-    color: #31A5AC;
+    color: #183153;
+    /* color: #31A5AC; */
 }
-.fa-coins{
-    color: #FFB900;
+.fa-icon{
+    color: #ecad00;
 }
 .back-img{
     /* background-image: url("../../images/Pexels Photo by Karolina Grabowska.png"); */
@@ -79,9 +80,9 @@ padding-top: 30px;
     border: 1px solid #000;
     background-color: #fff !important;
 }
-span{
+/* span{
     font-family: 'Roboto', sans-serif !important;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
-}
+} */
