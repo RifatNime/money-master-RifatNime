@@ -8,6 +8,7 @@
 body{
     background-color: #E5E5E5 !important;
     font-family: 'Roboto', sans-serif;
+    /* color: #183153; */
 
 }
 .display{
@@ -21,39 +22,39 @@ body{
     padding: 35px 0;
     line-height: 59px;
     color: #183153;
-    /* color: #31A5AC; */
 }
 .fa-icon{
     color: #ecad00;
+    /* border: 2px solid #183153;
+    border-radius: 10px;
+    padding: 5px !important; */
+    font-size: 22px;
 }
-.back-img{
-    /* background-image: url("../../images/Pexels Photo by Karolina Grabowska.png"); */
-    background: url("../../images/monthly-expenses.png");
-    width: 705px;
-    height: 815px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fa-icon:hover{
+    color:#183153;
+    /* border-radius: 10px;
+    padding: 5px !important; */
+    font-size: 25px;
 }
+
 .calculator{
     margin: 0px 20px;
     padding: 0px 20px;
-    background-color: #F8F8F8;
+    background-color: #F8F8F8;  
 }
 h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    
-    /* color: red; */
 }
 h3{
     font-family:'Roboto', sans-serif !important;
-font-weight: 500;
-font-size: 22px;
-line-height: 26px;
-color: #000000;
-padding-top: 30px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    padding-top: 30px;
 }
 .btn-btn{
     font-family: 'Roboto', sans-serif !important;
@@ -71,18 +72,90 @@ padding-top: 30px;
     font-size: 20px !important;
     line-height: 23px !important;
     color: #FFFFFF !important;
-        width: 173px;
-        height: 44px;
+    width: 173px;
+    height: 44px;
     background-color: #59A5FF !important;
+    border-radius: 5px !important;
 }
 .btn-btn:hover ,.btn-btn1:hover{
     color: #000 !important;
     border: 1px solid #000;
     background-color: #fff !important;
 }
-/* span{
-    font-family: 'Roboto', sans-serif !important;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-} */
+.notify {
+    background-color: rgba(209, 209, 209, 0.158);
+    display: none; /*new line after solution */
+    padding: 5px;
+    border: 1px solid #FF637B;
+}
+/*media queries */
+ @media (min-width: 400px) and (max-width: 768px) {
+    .display h1{
+        font-size: 22px !important;
+        line-height: 45px;
+    }
+    .display .img-1{
+        width: 35px;
+    }
+    h2{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 20px;
+    }
+     
+    .btn-btn{
+        font-size: 17px !important;
+        line-height: 20px !important;
+        width: 100px;
+        height: 55px;
+    }
+    .btn-btn1{
+        font-size: 16px !important;
+        line-height: 20px !important;
+        width: 90px;
+        height: 35px;
+
+    }
+  }
+ @media (max-width: 514px) {
+    .btn-btn1{
+        margin-top: 10px;
+        font-size: 15px !important;
+        line-height: 18px !important;
+        width: 90px;
+        height: 30px;
+
+    }
+  }
+@media (min-width: 780px) and (max-width: 1020px) {
+    .display h1{
+        font-size: 25px !important;
+        line-height: 45px;
+    }
+    .display .img-1{
+        width: 45px;
+    }
+    h2{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .btn-btn{
+        font-size: 20px !important;
+        line-height: 20px !important;
+        width: 109px;
+        height: 55px;
+    }
+    .btn-btn1{
+        font-size: 20px !important;
+        line-height: 20px !important;
+        width: 100px;
+        height: 35px;
+    }
+  }
