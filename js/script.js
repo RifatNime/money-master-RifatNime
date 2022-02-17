@@ -62,5 +62,9 @@ document.getElementById("calculation-btn").addEventListener("click", function(){
     }
     
     }
+    document.getElementById('income-input').value = "";
+    document.getElementById('food-input').value = "";
+    document.getElementById('rent-input').value = "";
+    document.getElementById('clothes-input').value = "";
     
 });

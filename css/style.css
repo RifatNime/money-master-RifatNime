@@ -8,8 +8,6 @@
 body{
     background-color: #E5E5E5 !important;
     font-family: 'Roboto', sans-serif;
-    /* color: #183153; */
-
 }
 .display{
     margin-top: 50px;
@@ -23,24 +21,23 @@ body{
     line-height: 59px;
     color: #183153;
 }
+.dolar{
+    font-size: 28px;
+}
 .fa-icon{
     color: #ecad00;
-    /* border: 2px solid #183153;
-    border-radius: 10px;
-    padding: 5px !important; */
     font-size: 22px;
 }
 .fa-icon:hover{
     color:#183153;
-    /* border-radius: 10px;
-    padding: 5px !important; */
     font-size: 25px;
 }
 
 .calculator{
     margin: 0px 20px;
     padding: 0px 20px;
-    background-color: #F8F8F8;  
+    background-color: #F8F8F8; 
+    border-radius: 10px; 
 }
 h2{
     font-family: 'Roboto', sans-serif;
@@ -62,9 +59,9 @@ h3{
     font-size: 20px !important;
     line-height: 23px !important;
     color: #FFFFFF !important;
-        width: 199px;
-        height: 51px;
+    padding: 8px 10px;
     background-color: #59A5FF !important;
+    border: 2px solid !important;
 }
 .btn-btn1{
     font-family: 'Roboto', sans-serif !important;
@@ -72,14 +69,14 @@ h3{
     font-size: 20px !important;
     line-height: 23px !important;
     color: #FFFFFF !important;
-    width: 173px;
-    height: 44px;
+    padding: 8px 10px;
     background-color: #59A5FF !important;
     border-radius: 5px !important;
+    border: 2px solid !important;
 }
 .btn-btn:hover ,.btn-btn1:hover{
     color: #000 !important;
-    border: 1px solid #000;
+    border: 2px solid #000;
     background-color: #fff !important;
 }
 .notify {
@@ -109,14 +106,14 @@ h3{
     .btn-btn{
         font-size: 17px !important;
         line-height: 20px !important;
-        width: 100px;
-        height: 55px;
+        /* width: 100px;
+        height: 55px; */
     }
     .btn-btn1{
         font-size: 16px !important;
         line-height: 20px !important;
-        width: 90px;
-        height: 35px;
+        /* width: 90px;
+        height: 35px; */
 
     }
   }
@@ -149,13 +146,13 @@ h3{
     .btn-btn{
         font-size: 20px !important;
         line-height: 20px !important;
-        width: 109px;
-        height: 55px;
+        /* width: 109px;
+        height: 55px; */
     }
     .btn-btn1{
         font-size: 20px !important;
         line-height: 20px !important;
-        width: 100px;
-        height: 35px;
+        /* width: 100px;
+        height: 35px; */
     }
   }

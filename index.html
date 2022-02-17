@@ -21,7 +21,7 @@
     <section >
         <div class="container-fluid w-75 sm-w-100">
             <div class="display">
-                <h1 class="fs-1 text-center fw-bold"><img class="img-1" src="./images/icon.png" alt="" width="45px"> Monthly Expenses Calculator💰 <img class="img-1" src="./images/money.png" alt="" width="45px"></h1>
+                <h1 class="fs-1 text-center fw-bold "><img class="img-1" src="./images/icon.png" alt="" width="45px"> Monthly Expenses Calculator💰 <img class="img-1" src="./images/money.png" alt="" width="45px"></h1>
                 <div class="row d-flex">
                     <div class="col-12 col-lg-6 col-md-12 col-sm-12">
                         <div class="back-img pb-5">
@@ -30,30 +30,30 @@
                     </div>
                     <!--------------------------------------- image section ends ---------------->
                     <div class="col-lg-6 col-md-12 text-center col-12">
-                        <div class="calculator lg-mx-5 px-2 py-4 ">
+                        <div class="calculator  mx-lg-5 lg-px-5 px-lg-5 py-4 ">
                             
                             <marquee width="65%" direction="left" height="25px" style="color: #FF637B; ">Let's calculate monthly income and expanses</marquee>
 
                             <!--------------------- income section ------------------------>
-                            <h2 class="text-center mt-4 pt-2"><i class="fa-solid fa-circle-dollar-to-slot fa-icon"></i> Income <i class="fas fa-dollar-sign"></i></h2>
+                            <h2 class="text-center mt-4 pt-2"><i class="fa-solid fa-circle-dollar-to-slot fa-icon"></i> Income <i class="fas fa-dollar-sign dolar"></i></h2>
                             <div class="input-group input-group-sm mt-4">
                                 <span class="input-group-text" id="inputGroup-sizing-sm">My Income :</span>
-                                <input id="income-input" placeholder="Enter monthly income" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
+                                <input id="income-input" placeholder="Enter monthly income" type="number" min="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
                             </div>
 
                             <!-- expence section -->
-                            <h2 class="text-center pt-4"> <i class="fa-solid fa-hand-holding-dollar fa-icon"></i> Expences</h2>
+                            <h2 class="text-center pt-4"> <i class="fa-solid fa-hand-holding-dollar fa-icon"></i> Expences <i class="fas fa-dollar-sign dolar"></i></h2>
                             <div class="input-group input-group-sm mt-3">
                                 <span class="input-group-text" id="inputGroup-sizing-sm">Food :</span>
-                                <input placeholder="Enter monthly food cost" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="food-input" />
+                                <input placeholder="Enter monthly food cost" type="number" min="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="food-input" />
                             </div>
                             <div class="input-group input-group-sm mt-3">
                                 <span class="input-group-text" id="inputGroup-sizing-sm">Rent :</span>
-                                <input placeholder="Enter monthly rent cost" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="rent-input" />
+                                <input placeholder="Enter monthly rent cost" type="number" min="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="rent-input" />
                             </div>
                             <div class="input-group input-group-sm mt-3">
                                 <span class="input-group-text" id="inputGroup-sizing-sm">Clothes :</span>
-                                <input placeholder="Enter monthly clothes cost" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="clothes-input" />
+                                <input placeholder="Enter monthly clothes cost" type="number" min="0" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="clothes-input" />
                             </div>
                             <!-- calculate button -->
                             <div class="notify-section mt-3 d-flex justify-content-end">
@@ -66,7 +66,7 @@
 
                             <!-- Blance Section balance-amount -->
                             <div class="notify-section mt-3 d-flex justify-content-end">
-                                <p class="text-danger notify " id="notify-fail-0">❌ Oop's !!! You have not sufficient money !</p>
+                                <p class="text-danger notify" id="notify-fail-0">❌ Oop's !!! You have not sufficient money !</p>
                             </div>
                             <h3 class="pb-2"><i class="fas fa-money-bill-alt fa-icon"></i> Balance : <Span id="balance-input">0000</Span>$</h3>
 
@@ -76,13 +76,13 @@
                             </div>
                             <div class="input-group input-group-sm mt-3 d-flex align-items-center justify-space-between">
                                 <span class="input-group-text" id="inputGroup-sizing-sm">Save :</span>
-                                <input placeholder="Enter number" type="text" class="me-2 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="save-input"/> % 
+                                <input placeholder="Enter number" type="number" min="0" class="me-2 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="save-input"/> % 
                                 <button type="button" class="btn btn-btn1 mx-2" id="save-button">Save</button>
                             </div>
 
                             <!-- showcasing savings and remaining balance -->
                             <h3 class="pt-5"><i class="fa-solid fa-piggy-bank fa-icon"></i> Saving Amount : <Span id="saving-amount">0000</Span>$</h3>
-                            <h3 class="pb-4"><i class="fa-solid fa-wallet fa-icon"></i> Remaining Balance : <Span id="remaining-balance">0000</Span>$</h3>
+                            <h3 class=""><i class="fa-solid fa-wallet fa-icon"></i> Remaining Balance : <Span id="remaining-balance">0000</Span>$</h3>
                             <div class="notify-section mt-3 d-flex justify-content-end">
                                 <p class="text-danger notify " id="notify-fail-2">❌ Oop's !!! You have not sufficient money for saving !</p>
                             </div>
