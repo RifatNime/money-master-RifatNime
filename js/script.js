@@ -1,17 +1,14 @@
-//
-function idInput(id){
-    return document.getElementById(id+"-input").value;
-}
-
 document.getElementById("calculation-btn").addEventListener("click", function(){
     const totalIncome = idInput("income");
     const foodInputAmount = idInput("food");
     const rentInputAmount = idInput("rent");
     const clothesInputAmount = idInput("clothes");
+    //error handle
     if (totalIncome < 0 || foodInputAmount < 0 || rentInputAmount < 0 || clothesInputAmount < 0 ){
         const failError = document.getElementById('notify-fail');
         failError.style.display = 'block';
     }
+     //error handle
     else if (totalIncome == "" || foodInputAmount == "" || rentInputAmount == "" || clothesInputAmount == "" ){
         const failError = document.getElementById('notify-fail');
         failError.style.display = 'block';
@@ -20,6 +17,7 @@ document.getElementById("calculation-btn").addEventListener("click", function(){
         //total expenses amount calculation
         const totalExpensesAmount = parseInt(foodInputAmount) + parseInt(rentInputAmount)+parseInt(clothesInputAmount);
     
+         //error handle
     if(totalExpensesAmount > totalIncome){
 
         const failError = document.getElementById('notify-fail-0');
@@ -40,10 +38,12 @@ document.getElementById("calculation-btn").addEventListener("click", function(){
             const savingsMoney = parseFloat(savingsTaka);
             const numFixedTwo = savingsMoney.toFixed(2);
             const savingAmount = totalIncome * (numFixedTwo / 100);
+             //error handle
             if (savingAmount < 0 ){
                 const failError = document.getElementById('notify-fail-1');
                 failError.style.display = 'block';
             }
+             //error handle
             else if (totalIncome == "" || foodInputAmount == "" || rentInputAmount == "" || clothesInputAmount == "" ){
                 const failError = document.getElementById('notify-fail-1');
                 failError.style.display = 'block';
@@ -68,3 +68,7 @@ document.getElementById("calculation-btn").addEventListener("click", function(){
     document.getElementById('clothes-input').value = "";
     
 });
+
+function idInput(amount){
+    return document.getElementById(amount+"-input").value;
+}
