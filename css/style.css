@@ -59,7 +59,7 @@ h3{
     font-size: 20px !important;
     line-height: 23px !important;
     color: #FFFFFF !important;
-    padding: 8px 10px;
+    padding: 10px 15px !important;
     background-color: #59A5FF !important;
     border: 2px solid !important;
 }
@@ -69,7 +69,7 @@ h3{
     font-size: 20px !important;
     line-height: 23px !important;
     color: #FFFFFF !important;
-    padding: 8px 10px;
+    padding: 10px 12px;
     background-color: #59A5FF !important;
     border-radius: 5px !important;
     border: 2px solid !important;
@@ -104,17 +104,14 @@ h3{
     }
      
     .btn-btn{
-        font-size: 17px !important;
-        line-height: 20px !important;
-        /* width: 100px;
-        height: 55px; */
+        font-size: 14px !important;
+        line-height: 16px !important;
+        padding: 8px 12px !important;
+
     }
     .btn-btn1{
         font-size: 16px !important;
         line-height: 20px !important;
-        /* width: 90px;
-        height: 35px; */
-
     }
   }
  @media (max-width: 514px) {
@@ -122,8 +119,6 @@ h3{
         margin-top: 10px;
         font-size: 15px !important;
         line-height: 18px !important;
-        width: 90px;
-        height: 30px;
 
     }
   }
@@ -144,15 +139,11 @@ h3{
         line-height: 22px;
     }
     .btn-btn{
-        font-size: 20px !important;
+        font-size: 18px !important;
         line-height: 20px !important;
-        /* width: 109px;
-        height: 55px; */
     }
     .btn-btn1{
-        font-size: 20px !important;
+        font-size: 18px !important;
         line-height: 20px !important;
-        /* width: 100px;
-        height: 35px; */
     }
   }
