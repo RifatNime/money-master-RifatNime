@@ -15,7 +15,7 @@ document.getElementById("calculation-btn").addEventListener("click", function(){
     }
     else{
         //total expenses amount calculation
-        const totalExpensesAmount = parseInt(foodInputAmount) + parseInt(rentInputAmount)+parseInt(clothesInputAmount);
+        const totalExpensesAmount = parseInt(foodInputAmount) + parseInt(rentInputAmount) + parseInt(clothesInputAmount);
     
          //error handle
     if(totalExpensesAmount > totalIncome){
@@ -58,7 +58,6 @@ document.getElementById("calculation-btn").addEventListener("click", function(){
             }
             // console.log(saving);
         });
-        
     }
     }
     clearField();
